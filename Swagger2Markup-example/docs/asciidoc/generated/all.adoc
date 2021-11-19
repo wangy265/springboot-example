@@ -1,0 +1,303 @@
+= Swagger API
+
+
+[[_overview]]
+== 概览
+test api
+
+
+=== 版本信息
+[%hardbreaks]
+__版本__ : 1.0
+
+
+=== 联系方式
+[%hardbreaks]
+__名字__ : wang
+__邮箱__ : email
+
+
+=== 许可信息
+[%hardbreaks]
+__服务条款__ : host
+
+
+=== URI scheme
+[%hardbreaks]
+__域名__ : localhost:8080
+__基础路径__ : /
+
+
+=== 标签
+
+* Address Interfaces : Address Controller
+* User Interfaces : User Controller
+
+
+
+
+[[_paths]]
+== 资源
+
+[[_address_interfaces_resource]]
+=== Address Interfaces
+Address Controller
+
+
+[[_addusingpost]]
+==== Add Address
+....
+POST /address/add
+....
+
+
+===== 参数
+
+[options="header", cols=".^2,.^3,.^4"]
+|===
+|类型|名称|类型
+|**Body**|**city** +
+__必填__|string
+|**Body**|**zipcode** +
+__必填__|string
+|===
+
+
+===== 响应
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP代码|说明|类型
+|**200**|OK|string
+|**201**|Created|无内容
+|**401**|Unauthorized|无内容
+|**403**|Forbidden|无内容
+|**404**|Not Found|无内容
+|===
+
+
+===== 消耗
+
+* `application/json`
+
+
+===== 生成
+
+* `*/*`
+
+
+===== HTTP请求示例
+
+====== 请求 path
+----
+/address/add
+----
+
+
+====== 请求 body
+[source,json]
+----
+{ }
+----
+
+
+===== HTTP响应示例
+
+====== 响应 200
+[source,json]
+----
+"string"
+----
+
+
+[[_user_interfaces_resource]]
+=== User Interfaces
+User Controller
+
+
+[[_addusingpost_1]]
+==== Add User
+....
+POST /user/add
+....
+
+
+===== 参数
+
+[options="header", cols=".^2,.^3,.^4"]
+|===
+|类型|名称|类型
+|**Body**|**userParam** +
+__必填__|string
+|===
+
+
+===== 响应
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP代码|说明|类型
+|**200**|OK|string
+|**201**|Created|无内容
+|**401**|Unauthorized|无内容
+|**403**|Forbidden|无内容
+|**404**|Not Found|无内容
+|===
+
+
+===== 消耗
+
+* `application/json`
+
+
+===== 生成
+
+* `*/*`
+
+
+===== HTTP请求示例
+
+====== 请求 path
+----
+/user/add
+----
+
+
+====== 请求 body
+[source,json]
+----
+{ }
+----
+
+
+===== HTTP响应示例
+
+====== 响应 200
+[source,json]
+----
+"string"
+----
+
+
+[[_listusingget]]
+==== Query User List
+....
+GET /user/list
+....
+
+
+===== 响应
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP代码|说明|类型
+|**200**|OK|< <<_uservo,UserVo>> > array
+|**401**|Unauthorized|无内容
+|**403**|Forbidden|无内容
+|**404**|Not Found|无内容
+|===
+
+
+===== 消耗
+
+* `application/json`
+
+
+===== 生成
+
+* `*/*`
+
+
+===== HTTP请求示例
+
+====== 请求 path
+----
+/user/list
+----
+
+
+===== HTTP响应示例
+
+====== 响应 200
+[source,json]
+----
+[ {
+  "address" : {
+    "city" : "string",
+    "zipcode" : "string"
+  },
+  "age" : 0,
+  "name" : "string"
+} ]
+----
+
+
+
+
+[[_definitions]]
+== 定义
+
+[[_address]]
+=== Address
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**city** +
+__可选__|City +
+**样例** : `"string"`|string
+|**zipcode** +
+__可选__|Zipcode +
+**样例** : `"string"`|string
+|===
+
+
+[[_addressvo]]
+=== AddressVo
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**city** +
+__可选__|**样例** : `"string"`|string
+|**zipcode** +
+__可选__|**样例** : `"string"`|string
+|===
+
+
+[[_user]]
+=== User
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**address** +
+__可选__|Address +
+**样例** : `"<<_address>>"`|<<_address,Address>>
+|**age** +
+__可选__|Age +
+**样例** : `0`|integer (int32)
+|**name** +
+__可选__|Name +
+**样例** : `"string"`|string
+|===
+
+
+[[_uservo]]
+=== UserVo
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**address** +
+__可选__|**样例** : `"<<_addressvo>>"`|<<_addressvo,AddressVo>>
+|**age** +
+__可选__|**样例** : `0`|integer (int32)
+|**name** +
+__可选__|**样例** : `"string"`|string
+|===
+
+
+
+
+

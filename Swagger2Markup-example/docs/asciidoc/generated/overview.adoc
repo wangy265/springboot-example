@@ -1,0 +1,37 @@
+= Swagger API
+
+
+[[_overview]]
+== 概览
+test api
+
+
+=== 版本信息
+[%hardbreaks]
+__版本__ : 1.0
+
+
+=== 联系方式
+[%hardbreaks]
+__名字__ : wang
+__邮箱__ : email
+
+
+=== 许可信息
+[%hardbreaks]
+__服务条款__ : host
+
+
+=== URI scheme
+[%hardbreaks]
+__域名__ : 127.0.0.1:8080
+__基础路径__ : /
+
+
+=== 标签
+
+* Address Interfaces : Address Controller
+* User Interfaces : User Controller
+
+
+

@@ -1,0 +1,34 @@
+
+h2. 定义 {anchor:definitions}
+
+h3. Address {anchor:address}
+
+||名称||说明||类型||
+|*city*\\ \\ _可选_||City\\ \\ *样例* : {noformat}"string"{noformat}||string|
+|*zipcode*\\ \\ _可选_||Zipcode\\ \\ *样例* : {noformat}"string"{noformat}||string|
+
+
+h3. AddressVo {anchor:addressvo}
+
+||名称||说明||类型||
+|*city*\\ \\ _可选_||*样例* : {noformat}"string"{noformat}||string|
+|*zipcode*\\ \\ _可选_||*样例* : {noformat}"string"{noformat}||string|
+
+
+h3. User {anchor:user}
+
+||名称||说明||类型||
+|*address*\\ \\ _可选_||Address\\ \\ *样例* : {noformat}"[#address]"{noformat}||[Address|#address]|
+|*age*\\ \\ _可选_||Age\\ \\ *样例* : {noformat}0{noformat}||integer (int32)|
+|*name*\\ \\ _可选_||Name\\ \\ *样例* : {noformat}"string"{noformat}||string|
+
+
+h3. UserVo {anchor:uservo}
+
+||名称||说明||类型||
+|*address*\\ \\ _可选_||*样例* : {noformat}"[#addressvo]"{noformat}||[AddressVo|#addressvo]|
+|*age*\\ \\ _可选_||*样例* : {noformat}0{noformat}||integer (int32)|
+|*name*\\ \\ _可选_||*样例* : {noformat}"string"{noformat}||string|
+
+
+

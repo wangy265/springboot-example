@@ -1,0 +1,66 @@
+
+[[_definitions]]
+== 定义
+
+[[_address]]
+=== Address
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**city** +
+__可选__|City +
+**样例** : `"string"`|string
+|**zipcode** +
+__可选__|Zipcode +
+**样例** : `"string"`|string
+|===
+
+
+[[_addressvo]]
+=== AddressVo
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**city** +
+__可选__|**样例** : `"string"`|string
+|**zipcode** +
+__可选__|**样例** : `"string"`|string
+|===
+
+
+[[_user]]
+=== User
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**address** +
+__可选__|Address +
+**样例** : `"<<_address>>"`|<<_address,Address>>
+|**age** +
+__可选__|Age +
+**样例** : `0`|integer (int32)
+|**name** +
+__可选__|Name +
+**样例** : `"string"`|string
+|===
+
+
+[[_uservo]]
+=== UserVo
+
+[options="header", cols=".^3,.^11,.^4"]
+|===
+|名称|说明|类型
+|**address** +
+__可选__|**样例** : `"<<_addressvo>>"`|<<_addressvo,AddressVo>>
+|**age** +
+__可选__|**样例** : `0`|integer (int32)
+|**name** +
+__可选__|**样例** : `"string"`|string
+|===
+
+
+
