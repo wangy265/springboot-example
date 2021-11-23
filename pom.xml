@@ -103,5 +103,6 @@
 
 	<modules>
 		<module>Swagger2Markup-example</module>
+		<module>Refactor-technical</module>
 	</modules>
 </project>

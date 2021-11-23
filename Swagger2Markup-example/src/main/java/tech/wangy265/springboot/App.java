@@ -3,6 +3,8 @@ package tech.wangy265.springboot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import sun.misc.Unsafe;
+
 /**
  * @author Wang
  *
@@ -15,4 +17,6 @@ public class App {
 		SpringApplication.run(App.class, args);
 	}
 
+	Unsafe
+	
 }
