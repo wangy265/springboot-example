@@ -46,6 +46,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
@@ -105,5 +109,9 @@
 		<module>Swagger2Markup-example</module>
 		<module>Refactor-technical</module>
 		<module>Design-model</module>
+		<module>Java-base</module>
+		<module>Jndi-log4j2-test</module>
+		<module>RMI</module>
+		<module>Tomcat-learning</module>
 	</modules>
 </project>
