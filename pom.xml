@@ -113,5 +113,6 @@
 		<module>Jndi-log4j2-test</module>
 		<module>RMI</module>
 		<module>Tomcat-learning</module>
+		<module>MS</module>
 	</modules>
 </project>
