@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class JavaPrice {
 	
+	
 	private BigDecimal priceBigDecimal = new BigDecimal(13344);
 	private Double priceDouble = 1222.0;
 	
@@ -14,6 +15,7 @@ public class JavaPrice {
 		JavaPrice javaPrice = new JavaPrice();
 		log.info("big decimal price = {}",javaPrice.priceBigDecimal);
 		log.info("double price = {}",javaPrice.priceDouble);
+		
 	}
 
 }

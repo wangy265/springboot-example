@@ -1,4 +1,4 @@
-package com.wang.ms;
+package com.wang.ms.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
