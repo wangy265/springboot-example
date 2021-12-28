@@ -115,5 +115,6 @@
 		<module>Tomcat-learning</module>
 		<module>MS</module>
 		<module>Spring-framework-learning</module>
+		<module>leetcode</module>
 	</modules>
 </project>
