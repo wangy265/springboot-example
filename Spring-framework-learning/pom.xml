@@ -5,13 +5,5 @@
     <artifactId>com.wangy265</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>Java-base</artifactId>
-  
-	<dependencies>
-	    <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-	</dependencies>
-  
+  <artifactId>Spring-framework-learning</artifactId>
 </project>
