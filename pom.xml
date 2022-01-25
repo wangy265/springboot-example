@@ -117,5 +117,6 @@
 		<module>Spring-framework-learning</module>
 		<module>leetcode</module>
 		<module>spi</module>
+		<module>Wechat-demo</module>
 	</modules>
 </project>
