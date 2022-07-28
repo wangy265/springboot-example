@@ -6,3 +6,15 @@ Swagger2Markup-example/target/maven-archiver/pom.properties
 *.jar
 Swagger2Markup-example/target/Swagger2Markup-example-0.0.1-SNAPSHOT.jar.original
 *.classpath
+Design-model/.gitignore
+spi/.gitignore
+leetcode/.gitignore
+Wechat-demo/.gitignore
+Swagger2Markup-example/.gitignore
+Spring-framework-learning/.gitignore
+Refactor-technical/.gitignore
+RMI/.gitignore
+MS/.gitignore
+Jndi-log4j2-test/.gitignore
+Java-base/.gitignore
+Tomcat-learning/.gitignore
